@@ -1,6 +1,18 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 95vw;
+    height: 95vh;
+    margin: 2.5vh 2.5vw;
+}
+
 button {
     margin-top: 50vh;
     border: 3px solid #101050;
     border-radius: 10px;
     font-size: 1.5em;
+    padding: 2.5%;
 }
