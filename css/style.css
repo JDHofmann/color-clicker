@@ -7,6 +7,8 @@
     width: 95vw;
     height: 95vh;
     margin: 2.5vh 2.5vw;
+    border-radius: 10px;
+
 }
 
 button {
@@ -14,7 +16,9 @@ button {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 3px solid #101050;
+    border: 5px solid #ffffff;
+    background: #202020;
+    color: #ffffff;
     border-radius: 10px;
     font-size: 1.5em;
     padding: 2.5%;
