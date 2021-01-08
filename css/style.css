@@ -1,3 +1,6 @@
 button {
-    margin-top: 50vh
+    margin-top: 50vh;
+    border: 3px solid #101050;
+    border-radius: 10px;
+    font-size: 1.5em;
 }
