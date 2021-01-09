@@ -37,6 +37,14 @@ form {
     transition: .2s;
 }
 
+h1, p {
+    margin: 1vh auto;
+}
+
+p {
+    padding: 1%;
+}
+
 input, label {
     display: block;
     text-align: center;
@@ -44,10 +52,10 @@ input, label {
     padding: 2.5%;
 }
 
-/* label, h2 {
+fieldset, p {
     border: 2.5px solid #202020;
     border-radius: 10px;
-} */
+}
 
 .submit {
     display: block;
