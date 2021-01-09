@@ -11,22 +11,18 @@
     border: 5px solid #202020;
 }
 
-.centered {
+form {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    /* border: 5px solid #ffffff; */
+    padding: 2.5%;
     border-radius: 10px;
-}
-
-form {
     border: 5px solid #202020;
     background: #ffffff;
     border-radius: 10px;
     text-align: center;
-    padding: 2.5%;
-
+    padding: 2.5% 7.5%;
 }
 
 .btn {
@@ -36,8 +32,16 @@ form {
     color: #202020;
     border-radius: 10px;
     font-size: 1.5em;
-    padding: 2.5%;
+    padding: 5%;
     transition: .2s;
+}
+
+input, label {
+    display: block;
+    text-align: center;
+    margin: 1vh auto;
+    padding: 2.5%;
+
 }
 
 .submit {
