@@ -8,7 +8,6 @@ const submitColors = (e) => {
     let green = parseInt(document.querySelector("#green").value);
     let blue = parseInt(document.querySelector("#blue").value);
     let range = parseInt(document.querySelector("#range").value);
-    console.log(range)
     clickFunction(red, green, blue, range)
 }
 
@@ -26,12 +25,10 @@ const min = (color, range) => {
 
 function clickFunction(red, green, blue, range){
 
-    console.log(max(red, range))
-
     let randR = Math.floor(Math.random() * (max(red, range) - min(red,range)) + min(red,range));
 
-    let randG = Math.floor(Math.random() * (max(green, range) - 27) + 27) + 1;
-    let randB = Math.floor(Math.random() * (blue - 27) + 27) + 1;
+    let randG = Math.floor(Math.random() * (max(green, range) - min(green, range)) + min(green, range));
+    let randB = Math.floor(Math.random() * (max(blue, range) - min(blue, range)) + min(blue, range));
     console.log(
         `rgb(${randR},${randG},${randB})`
     )
