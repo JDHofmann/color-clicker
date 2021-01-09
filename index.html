@@ -12,19 +12,21 @@
 <body>
     <div class="container">
             <form>
-                <h1>Learn about rgb colors</h1>
+                <h1>RGB Color Randomizer</h1>
                 <h2>How much of each color?</h2>
-                <h3></h3>
-                <label for="red">Red</label>
-                <input id="red" type="range" min="0" max="255" step="3"></input>
-                <label for="green">Green</label>
-                <input id="green" type="range" min="0" max="255" step="3"></input>
-                <label for="blue">Blue</label>
-                <input id="blue" type="range" min="0" max="255" step="3"></input>
-
-
-                <label for="blue">How big of a range for each color?</label>
-                <input id="range" type="range"></input>
+                <h3>RGB <span class="result"></span></h3>
+                <label for="red">Red
+                    <input id="red" type="range" min="0" max="255" step="3"></input>
+                </label>
+                <label for="green">Green
+                    <input id="green" type="range" min="0" max="255" step="3"></input>
+                </label>
+                <label for="blue">Blue
+                    <input id="blue" type="range" min="0" max="255" step="3"></input>
+                </label>
+                <label for="blue">How big of a range for each color?
+                    <input id="range" type="range"></input>
+                </label>
 
                 <button type="submit" class="btn submit">Submit</button>
             </form>

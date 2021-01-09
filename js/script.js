@@ -39,7 +39,7 @@ function clickFunction(red, green, blue, range){
     randG=withinRange(randG)
     randB=withinRange(randB)
 
-    document.querySelector("h3").innerHTML = `result: rgb(${randR},${randG},${randB})`
+    document.querySelector(".result").innerHTML = `(${randR},${randG},${randB})`
     background.style.backgroundColor= "rgb(" +randR+ "," +randG+ "," +randB+ ")";
 }
 

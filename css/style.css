@@ -42,7 +42,11 @@ input, label {
     text-align: center;
     margin: 1vh auto;
     padding: 2.5%;
+}
 
+label, h3 {
+    border: 2.5px solid #202020;
+    border-radius: 10px;
 }
 
 .submit {
