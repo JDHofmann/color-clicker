@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .container {
@@ -16,7 +17,6 @@ form {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 2.5%;
     border-radius: 10px;
     border: 5px solid #202020;
     background: #ffffff;
