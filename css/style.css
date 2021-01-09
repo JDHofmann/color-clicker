@@ -13,10 +13,6 @@
 }
 
 form {
-    /* position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
     border-radius: 10px;
     border: 5px solid #202020;
     background: #ffffff;
@@ -25,7 +21,7 @@ form {
     padding: 2.5%;
     margin: 2.5% auto;
     width: 75vw;
-    max-width: 350px;
+    max-width: 300px;
 }
 
 .btn {
@@ -37,6 +33,10 @@ form {
     font-size: 1.5em;
     padding: 2.5%;
     transition: .2s;
+}
+
+h1 {
+    font-size: 1.5em;
 }
 
 h1, p {
