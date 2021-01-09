@@ -13,18 +13,21 @@
     <div class="container">
             <form>
                 <h1>RGB Color Randomizer</h1>
-                <h2>How much of each color?</h2>
-                <h3>RGB <span class="result"></span></h3>
-                <label for="red">Red
-                    <input id="red" type="range" min="0" max="255" step="3"></input>
-                </label>
-                <label for="green">Green
-                    <input id="green" type="range" min="0" max="255" step="3"></input>
-                </label>
-                <label for="blue">Blue
-                    <input id="blue" type="range" min="0" max="255" step="3"></input>
-                </label>
-                <label for="blue">How big of a range for each color?
+                <h2>RGB <span class="result"></span></h2>
+                <!-- <h3>Color Level</h3> -->
+                <fieldset>
+                    <legend>Color Level</legend>
+                    <label for="red">Red
+                        <input id="red" type="range" min="0" max="255" step="3"></input>
+                    </label>
+                    <label for="green">Green
+                        <input id="green" type="range" min="0" max="255" step="3"></input>
+                    </label>
+                    <label for="blue">Blue
+                        <input id="blue" type="range" min="0" max="255" step="3"></input>
+                    </label>
+                </fieldset>
+                <label for="blue">Randomizing Amount
                     <input id="range" type="range"></input>
                 </label>
 

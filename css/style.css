@@ -44,10 +44,10 @@ input, label {
     padding: 2.5%;
 }
 
-label, h3 {
+/* label, h2 {
     border: 2.5px solid #202020;
     border-radius: 10px;
-}
+} */
 
 .submit {
     display: block;
