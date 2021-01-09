@@ -8,7 +8,7 @@ const submitColors = (e) => {
     let green = parseInt(document.querySelector("#green").value);
     let blue = parseInt(document.querySelector("#blue").value);
     let range = parseInt(document.querySelector("#range").value);
-    clickFunction(red, green, blue, range)
+    colorRandomizer(red, green, blue, range)
 }
 
 let submit = document.querySelector("form")
@@ -29,7 +29,7 @@ const withinRange = (num) => {
     else return num
 }
 
-function clickFunction(red, green, blue, range){
+function colorRandomizer(red, green, blue, range){
 
     let randR = Math.floor(Math.random() * (max(red, range) - min(red,range)) + min(red,range));
     let randG = Math.floor(Math.random() * (max(green, range) - min(green, range)) + min(green, range));
@@ -40,14 +40,5 @@ function clickFunction(red, green, blue, range){
     randB=withinRange(randB)
 
     document.querySelector(".result").innerHTML = `(${randR}, ${randG}, ${randB})`
-    background.style.backgroundColor= "rgb(" +randR+ "," +randG+ "," +randB+ ")";
+    background.style.backgroundColor= `rgb(${randR}, ${randG}, ${randB})`
 }
-
-// red = 150
-// range = 25
-// 125 < red > 175
-// 
-// Math.random() * (max() - min()) + min();
-// Math.random()  * ( 175 - 125 ) + 125
-// max = red + range/2
-// min = red - range/2

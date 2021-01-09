@@ -12,8 +12,8 @@
 <body>
     <div class="container">
             <form>
-                <h1>RGB Color Randomizer</h1>
-                <p>rgb<span class="result">(255, 255, 255)</span></p>
+                <h1>RGB Color Picker</h1>
+                <p class="result-p">rgb<span class="result">(255, 255, 255)</span></p>
                 <fieldset>
                     <legend>Color Level</legend>
                     <label for="red">Red
@@ -26,8 +26,9 @@
                         <input id="blue" type="range" min="0" max="255" step="3"></input>
                     </label>
                 </fieldset>
-                <label for="blue">Variation Range
-                    <input id="range" type="range"></input>
+                <!-- <p>Choose a randomzi</p> -->
+                <label for="blue">Randomizer Range
+                    <input id="range" type="range" value="0"></input>
                 </label>
 
                 <button type="submit" class="btn submit">Submit</button>
