@@ -4,7 +4,9 @@ let background = document.querySelector('.container');
 
 const submitColors = (e) => {
     e.preventDefault();
-    console.log(e.target)
+    let red = document.querySelector("#red").value
+    console.log(red)
+    clickFunction(red)
 }
 
 
@@ -14,8 +16,8 @@ submit.addEventListener("submit", submitColors)
 // button.addEventListener("click", clickFunction);
 
 
-function clickFunction(){
-    let randR = Math.floor(Math.random() * (255 - 0) + 0) + 1;
+function clickFunction(red){
+    let randR = Math.floor(Math.random() * (red - 27) + 27) + 1;
     let randG = Math.floor(Math.random() * (255 - 0) + 0) + 1;
     let randB = Math.floor(Math.random() * (255 - 0) + 0) + 1;
     console.log(
