@@ -25,9 +25,11 @@ form {
     background: #ffffff;
     border-radius: 10px;
     text-align: center;
+    padding: 2.5%;
+
 }
 
-button {
+.btn {
     margin-top: 5vh;
     border: 5px solid #202020;
     background: #ffffff;
@@ -37,6 +39,12 @@ button {
     padding: 2.5%;
     transition: .2s;
 }
+
+.submit {
+    display: block;
+    margin: 0 auto;
+}
+
 button:focus, button:hover {
     background: #50b0ff;
     outline: none;

@@ -1,7 +1,18 @@
 let button = document.querySelector(".btn");
 let background = document.querySelector('.container');
 
-button.addEventListener("click", clickFunction);
+
+const submitColors = (e) => {
+    e.preventDefault();
+    console.log(e.target)
+}
+
+
+
+let submit = document.querySelector("form")
+submit.addEventListener("submit", submitColors)
+// button.addEventListener("click", clickFunction);
+
 
 function clickFunction(){
     let randR = Math.floor(Math.random() * (255 - 0) + 0) + 1;
