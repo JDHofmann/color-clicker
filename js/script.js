@@ -23,15 +23,22 @@ const min = (color, range) => {
     return color - range/2
 }
 
+const withinRange = (num) => {
+    if(num > 255) return 255
+    else if ( num < 0 ) return 0
+    else return num
+}
+
 function clickFunction(red, green, blue, range){
 
     let randR = Math.floor(Math.random() * (max(red, range) - min(red,range)) + min(red,range));
-
     let randG = Math.floor(Math.random() * (max(green, range) - min(green, range)) + min(green, range));
     let randB = Math.floor(Math.random() * (max(blue, range) - min(blue, range)) + min(blue, range));
-    console.log(
-        `rgb(${randR},${randG},${randB})`
-    )
+
+    randR=withinRange(randR)
+    randG=withinRange(randG)
+    randB=withinRange(randB)
+
     document.querySelector("h3").innerHTML = `result: rgb(${randR},${randG},${randB})`
     background.style.backgroundColor= "rgb(" +randR+ "," +randG+ "," +randB+ ")";
 }
