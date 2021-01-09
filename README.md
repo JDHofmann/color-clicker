@@ -8,4 +8,4 @@ Additionally, a randomizer has been added at the bottom allowing for colors to b
 
 <br>
 
-You can try it out for yourself [here](https://jdhofmann.github.io/color-clicker/)
+You can try it out for yourself [here](https://jdhofmann.github.io/rgb-color-picker/)
