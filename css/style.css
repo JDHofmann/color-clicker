@@ -22,7 +22,7 @@ form {
     background: #ffffff;
     border-radius: 10px;
     text-align: center;
-    padding: 2.5% 7.5%;
+    padding: 2.5%;
     width: 75vw;
 }
 
@@ -33,7 +33,7 @@ form {
     color: #202020;
     border-radius: 10px;
     font-size: 1.5em;
-    padding: 5%;
+    padding: 2.5%;
     transition: .2s;
 }
 
